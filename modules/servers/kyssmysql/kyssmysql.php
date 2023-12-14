@@ -228,7 +228,7 @@ function kyssmysql_ClientArea($params) {
     $code = '<form  target="_blank">
 <div class="row">
 <div class="col-sm-5 text-right">
-<strong>Servidor</strong>
+<strong>Server</strong>
 </div>
 <div class="col-sm-7 text-left">
 '.$params["serverhostname"].'
@@ -236,7 +236,7 @@ function kyssmysql_ClientArea($params) {
 </div>
 <div class="row">
 <div class="col-sm-5 text-right">
-<strong>Banco de Dados</strong>
+<strong>Database</strong>
 </div>
 <div class="col-sm-7 text-left">
 '.$database.'
@@ -244,7 +244,7 @@ function kyssmysql_ClientArea($params) {
 </div>
 <div class="row">
 <div class="col-sm-5 text-right">
-<strong>Usuário</strong>
+<strong>User</strong>
 </div>
 <div class="col-sm-7 text-left">
 '.$user.'
@@ -252,7 +252,7 @@ function kyssmysql_ClientArea($params) {
 </div>	
 <div class="row">
 <div class="col-sm-5 text-right">
-<strong>Senha</strong>
+<strong>Password</strong>
 </div>
 <div class="col-sm-7 text-left">
 '.$params["password"].'
